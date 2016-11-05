@@ -1,0 +1,13 @@
+id: demo
+label: MySql Demo imports
+description: A few simple beer-related imports, to demonstrate how to implement migrations.
+source_type: Custom tables
+shared_configuration:
+  source:
+    key: db_migration
+
+dependencies:
+  enforced:
+    module:
+      - migrate_example
+

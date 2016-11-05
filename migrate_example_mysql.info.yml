@@ -1,0 +1,8 @@
+type: module
+name: Migrate Example for MySql
+description: 'Examples for MySql migration.'
+package: Examples
+core: 8.x
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
