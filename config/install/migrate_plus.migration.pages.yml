@@ -24,7 +24,10 @@ process:
   sticky:
     plugin: default_value
     default_value: 0
-  nid: id
+  created:
+    plugin: callback
+    callable: strtotime
+    source: created_date
   field_tags:
     -
       plugin: explode
