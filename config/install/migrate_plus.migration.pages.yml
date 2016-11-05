@@ -10,7 +10,10 @@ process:
     plugin: default_value
     default_value: page
   title: title
-  body: body
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: basic_html
   field_city: city
   field_state: state
   field_site/uri: site_url
