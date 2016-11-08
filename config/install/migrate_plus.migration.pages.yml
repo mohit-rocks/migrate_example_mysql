@@ -36,7 +36,3 @@ process:
     -
       plugin: entity_generate
 migration_dependencies: {}
-dependencies:
-  enforced:
-    module:
-      - migrate_example

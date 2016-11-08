@@ -6,8 +6,3 @@ shared_configuration:
   source:
     key: db_migration
 
-dependencies:
-  enforced:
-    module:
-      - migrate_example
-
